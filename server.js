@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Frontend'inizin çalıştığı adres
+  origin: "https://math-solver-liard.vercel.app/",
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
